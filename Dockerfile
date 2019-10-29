@@ -1,6 +1,6 @@
 FROM node:alpine
 
-ENV AWSCDK_VERSION 1.15.0
+ENV AWSCDK_VERSION latest
 RUN apk update && apk upgrade
 RUN apk update && apk add bash
 RUN apk update && apk add groff
