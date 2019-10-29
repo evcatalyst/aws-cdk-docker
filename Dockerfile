@@ -42,3 +42,4 @@ RUN npm i -g aws-cdk@${AWSCDK_VERSION} \
   @aws-cdk/aws-route53@${AWSCDK_VERSION} \
   typescript@latest \
   @types/node@latest
+WORKDIR /data
