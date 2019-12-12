@@ -4,6 +4,7 @@ ENV AWSCDK_VERSION latest
 RUN apk update && apk upgrade
 RUN apk update && apk add bash
 RUN apk update && apk add groff
+RUN apk add curl
 RUN apk add --no-cache --update python3 python3-dev git
 
 RUN pip3 install --upgrade pip
